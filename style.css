@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #e5e5e5;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  width: 40%;
+}
+
+nav {
+  margin: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0 30px;
+  text-align: end;
+}
+
+nav a {
+  text-decoration: none;
+  /* text-align: center; */
+  color: #14213d;
+}
+
+nav a:hover {
+  background-color: #fca311;
+}
+main {
+  display: flex;
+}
+
+.product-image {
+  width: 90%;
+}
