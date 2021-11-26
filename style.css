@@ -1,6 +1,7 @@
 * {
   margin: 0;
   font-family: "Poppins", sans-serif;
+  color: #14213d;
 }
 
 body {
@@ -16,7 +17,9 @@ body {
 
 .logo {
   width: 60%;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 0;
+
   transition-duration: 300ms;
 }
 .subtitle {
@@ -75,4 +78,34 @@ footer {
 .product-desc {
   width: 95%;
   text-align: justify;
+}
+
+.product-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: start;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contato-form > * {
+  padding: 5px;
+  margin: 10px;
+}
+
+.sobre-item {
+  text-align: start;
+  width: 80%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding-left: 5px;
+  border-left: solid #fca311 8px;
+}
+.sobre-desc {
+  text-align: start;
+  width: 80%;
+  text-align: justify;
+  padding: 10px;
 }
