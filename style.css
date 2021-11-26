@@ -15,7 +15,16 @@ body {
 }
 
 .logo {
-  width: 40%;
+  width: 60%;
+  margin: 10px;
+  transition-duration: 300ms;
+}
+.subtitle {
+  font-size: 1rem;
+}
+
+.logo:hover {
+  transform: rotate(-5deg);
 }
 
 nav {
@@ -29,18 +38,41 @@ nav ul {
 }
 
 nav a {
+  font-weight: bold;
   text-decoration: none;
   /* text-align: center; */
   color: #14213d;
+  border-top: solid transparent 5px;
+  font-size: 1rem;
 }
 
 nav a:hover {
   background-color: #fca311;
+  border-top: solid white 5px;
 }
 main {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 10px;
+}
+.card {
+  width: 300px;
+  margin: 10px;
 }
 
 .product-image {
-  width: 90%;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.product-desc {
+  width: 95%;
+  text-align: justify;
 }
