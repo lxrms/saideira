@@ -109,3 +109,20 @@ a {
   text-align: justify;
   padding: 10px;
 }
+
+.card-produto {
+  width: 80%;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.compra {
+  font-weight: bold;
+  border: solid #fca311 3px;
+  background-color: #fca311;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
