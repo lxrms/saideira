@@ -1,5 +1,5 @@
-# A simple mockup for a beer delivery site.
+## A simple mockup for a beer shop and delivery website.
 
-## Use
+## Use guide
 
-Access [https://lxrms.github.io/saideira/](https://lxrms.github.io/saideira/)
+Access [https://lxrms.github.io/saideira/](https://lxrms.github.io/saideira/) or clone this repo and run a local server.
