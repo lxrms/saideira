@@ -142,4 +142,9 @@ a {
 
 .social {
   width: 30px;
+  filter: contrast(2%);
+}
+
+.social:hover {
+  filter: contrast(80%);
 }
