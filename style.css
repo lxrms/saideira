@@ -76,7 +76,9 @@ footer {
 .product-image {
   border-radius: 10px 10px 0 0;
   width: 100%;
-
+  transform: rotate(-2deg);
+  margin-top: 10px;
+  margin-bottom: 20px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
