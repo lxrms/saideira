@@ -43,9 +43,10 @@ nav ul {
 nav a {
   font-weight: bold;
   text-decoration: none;
-  /* text-align: center; */
   color: #14213d;
   border-top: solid transparent 5px;
+  border-bottom: 0;
+  padding-bottom: 0;
   font-size: 1rem;
 }
 
